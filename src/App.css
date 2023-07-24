@@ -1,0 +1,23 @@
+.map-section {
+  margin: 4rem 0;
+}
+.input-location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.location-form input {
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  width: 20rem;
+  border: 2px solid #ffff;
+  background-color: transparent;
+}
+.location-form input::placeholder {
+  color: white;
+}
+.map-container {
+  height: 400px;
+  width: 70rem;
+}
